@@ -1,50 +1,54 @@
 ## Functions
 Use Title Casing for function naming
 
-`badfuntionname()`
-
-`GoodFunctionName()`
+```Cpp
+badfuntionname();
+GoodFunctionName();
+```
 ## Variables
 Use only lowercase letters for variable naming
 
-`ReAllYbadVariabLenAme2481`
-
-`goodvariablename`
+```Cpp
+int ReAllYbadVariabLenAme2481;
+int goodvariablename;
+```
 ## Classes
 Same naming scheme as functions
 
-`bad_className`
-
-`GoodClassName`
+```Cpp
+public class bad_className
+public class GoodClassName
+```
 ## Enums
 Only all caps with underscores as spaces is acceptable
 
-`awfulEnumNAme_208`
-
-`GOOD_ENUM_NAME`
+```Cpp
+enum awfulEnumNAme_208;
+enum GOOD_ENUM_NAME;
+```
 ### Enum Values
 Begin all enum value names with "k" and then Title Case
 
-`reallyBAD_enumValue`
-
-`kGoodEnumValue`
+```Cpp
+reallyBAD_enumValue;
+kGoodEnumValue;
+```
 
 ## Structs
 Refer to Class naming
 
 ## Globals
-Prefix global with "g_" and then casing for its type
-`IMAbad_Global`
-
-`g_acceptableglobalvariable`
-
-`g_AcceptableFunctionOrClassOrStruct`
-
-`g_ACCEPTABLEGLOBALENUM`
+Prefix global variables with "g_" and then lowercase characters
+```Cpp
+int IMAbad_Global;
+int g_acceptableglobal;
+```
 
 ## Other Notes
+### Privates
 Prefix private things with an underscore and then standard casing for its type
 
-`private Class BADsneakyPRIVATE_Class2`
-
-`private int _goodvariableboi`
+```Cpp
+private class BADsneakyPRIVATE_Class2;
+private int _goodvariableboi;
+```
