@@ -7,13 +7,13 @@
  jailed: false
  plugins:
   - jekyll-seo-tag
- # theme: jekyll-theme-midnight
- remote_theme: Lunar-Dust/midnight
+ theme: jekyll-theme-midnight
+ # remote_theme: Lunar-Dust/midnight
  gfm_quirks: paragraph_end
 
  lsi: false
  safe: true
-# source: [your repo's top level directory]
+ #source: [your repo's top level directory]
  incremental: false
  highlighter: rouge
  gist:
