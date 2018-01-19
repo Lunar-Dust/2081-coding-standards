@@ -10,7 +10,7 @@
  theme: jekyll-theme-midnight
  # remote_theme: Lunar-Dust/midnight
  gfm_quirks: paragraph_end
- base_url: /2081-coding-standards
+ baseurl: /2081-coding-standards
 
  lsi: false
  safe: true
